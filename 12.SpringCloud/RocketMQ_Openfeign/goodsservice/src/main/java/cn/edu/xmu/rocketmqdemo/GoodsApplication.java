@@ -1,4 +1,4 @@
-package cn.edu.xmu.rocketmqdemo;
+package cn.edu.xmu.restfuldemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

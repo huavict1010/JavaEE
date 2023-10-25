@@ -1,4 +1,4 @@
-package cn.edu.xmu.rocketmqdemo;
+package cn.edu.xmu.restfuldemo;
 
 
 
@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
 @SpringBootApplication
-@EnableFeignClients(basePackages = "cn.edu.xmu.rocketmqdemo.microservice")
+@EnableFeignClients(basePackages = "cn.edu.xmu.restfuldemo.microservice")
 public class ConsumerApplication{
 
 	public static void main(String[] args) {

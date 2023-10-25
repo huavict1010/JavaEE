@@ -1,6 +1,6 @@
-package cn.edu.xmu.rocketmqdemo.util;
+package cn.edu.xmu.restfuldemo.util;
 
-import cn.edu.xmu.rocketmqdemo.model.VoObject;
+import cn.edu.xmu.restfuldemo.model.VoObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

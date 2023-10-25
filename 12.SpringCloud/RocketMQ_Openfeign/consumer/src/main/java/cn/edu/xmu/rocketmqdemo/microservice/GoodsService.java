@@ -1,6 +1,6 @@
-package cn.edu.xmu.rocketmqdemo.microservice;
+package cn.edu.xmu.restfuldemo.microservice;
 
-import cn.edu.xmu.rocketmqdemo.model.Goods;
+import cn.edu.xmu.restfuldemo.model.Goods;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

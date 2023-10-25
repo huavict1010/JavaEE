@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.edu.xmu</groupId>
-    <artifactId>rocketmqdemo</artifactId>
+    <artifactId>restfuldemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rocketmqdemo</name>
+    <name>restfuldemo</name>
     <description>Demo project for Spring Boot and RocketMQ</description>
 
 

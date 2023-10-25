@@ -1,6 +1,6 @@
-package cn.edu.xmu.rocketmqdemo.service.mq;
+package cn.edu.xmu.restfuldemo.service.mq;
 
-import cn.edu.xmu.rocketmqdemo.util.JacksonUtil;
+import cn.edu.xmu.restfuldemo.util.JacksonUtil;
 import org.apache.rocketmq.spring.annotation.ConsumeMode;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
 import org.apache.rocketmq.spring.core.RocketMQListener;

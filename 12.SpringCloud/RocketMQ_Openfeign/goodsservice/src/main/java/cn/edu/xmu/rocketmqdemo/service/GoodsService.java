@@ -1,8 +1,8 @@
-package cn.edu.xmu.rocketmqdemo.service;
+package cn.edu.xmu.restfuldemo.service;
 
-import cn.edu.xmu.rocketmqdemo.model.Goods;
-import cn.edu.xmu.rocketmqdemo.model.SpecItem;
-import cn.edu.xmu.rocketmqdemo.model.Specification;
+import cn.edu.xmu.restfuldemo.model.Goods;
+import cn.edu.xmu.restfuldemo.model.SpecItem;
+import cn.edu.xmu.restfuldemo.model.Specification;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

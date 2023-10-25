@@ -1,6 +1,6 @@
-package cn.edu.xmu.rocketmqdemo;
+package cn.edu.xmu.restfuldemo;
 
-import cn.edu.xmu.rocketmqdemo.service.RocketMQService;
+import cn.edu.xmu.restfuldemo.service.RocketMQService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

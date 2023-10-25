@@ -61,7 +61,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.edu.xmu.rocketmqdemo.GoodsApplication</mainClass>
+                    <mainClass>cn.edu.xmu.restfuldemo.GoodsApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

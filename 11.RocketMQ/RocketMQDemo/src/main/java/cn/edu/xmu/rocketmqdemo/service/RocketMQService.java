@@ -1,8 +1,8 @@
-package cn.edu.xmu.rocketmqdemo.service;
+package cn.edu.xmu.restfuldemo.service;
 
-import cn.edu.xmu.rocketmqdemo.model.Log;
-import cn.edu.xmu.rocketmqdemo.model.OrderStockEvent;
-import cn.edu.xmu.rocketmqdemo.util.JacksonUtil;
+import cn.edu.xmu.restfuldemo.model.Log;
+import cn.edu.xmu.restfuldemo.model.OrderStockEvent;
+import cn.edu.xmu.restfuldemo.util.JacksonUtil;
 import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
@@ -36,10 +36,10 @@ public class RocketMQService {
     private RocketMQTemplate rocketMQTemplate;
 
 
-    @Value("${rocketmqdemo.order-pay-topic.delay-level}")
+    @Value("${restfuldemo.order-pay-topic.delay-level}")
     private int delayLevel;
 
-    @Value("${rocketmqdemo.order-pay-topic.timeout}")
+    @Value("${restfuldemo.order-pay-topic.timeout}")
     private long timeout;
 
     public void sendLogMessage(Log log){

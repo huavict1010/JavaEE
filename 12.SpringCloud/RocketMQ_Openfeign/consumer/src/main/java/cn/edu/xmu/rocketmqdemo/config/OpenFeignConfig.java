@@ -14,7 +14,7 @@
  * limitations under the License.
  **/
 
-package cn.edu.xmu.rocketmqdemo.config;
+package cn.edu.xmu.restfuldemo.config;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

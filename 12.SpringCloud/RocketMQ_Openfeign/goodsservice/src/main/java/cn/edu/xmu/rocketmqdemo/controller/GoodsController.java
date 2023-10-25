@@ -1,12 +1,12 @@
-package cn.edu.xmu.rocketmqdemo.controller;
+package cn.edu.xmu.restfuldemo.controller;
 
-import cn.edu.xmu.rocketmqdemo.model.Goods;
+import cn.edu.xmu.restfuldemo.model.Goods;
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import cn.edu.xmu.rocketmqdemo.service.GoodsService;
-import cn.edu.xmu.rocketmqdemo.util.ResponseUtil;
+import cn.edu.xmu.restfuldemo.service.GoodsService;
+import cn.edu.xmu.restfuldemo.util.ResponseUtil;
 
 /**
  * 商品控制器

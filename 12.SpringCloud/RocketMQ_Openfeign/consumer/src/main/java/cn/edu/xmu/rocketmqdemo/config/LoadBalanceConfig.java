@@ -14,7 +14,7 @@
  * limitations under the License.
  **/
 
-package cn.edu.xmu.rocketmqdemo.config;
+package cn.edu.xmu.restfuldemo.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
